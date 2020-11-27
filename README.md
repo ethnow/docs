@@ -32,6 +32,7 @@ Three types of interactions are implemented by ethspoke:
 
 ## Detailed description
 
+The entity-relationship diagram depicted in figure represents the tables and references existing in the ethspoke and ethsign scoped application.
 
 ![Entity Diagram](ethnow_erd.png)
 
