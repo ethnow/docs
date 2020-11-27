@@ -1,6 +1,11 @@
 # ethnow - The Ethereum integration for ServiceNow
 
-ethnow aims to create a production-ready Ethereum spoke for ServiceNow. All modules can operate in a totally self-contained way withing the ServiceNow instance, without the need of any external component, including the MID server.
+ethnow aims to create a production-ready Ethereum integration for ServiceNow. 
+
+The integration works with the public Ethereum networks as well as private networks based on Ethereum compatible software like Consensys Quorum and Hyperledger Besu.
+
+
+All modules can operate in a totally self-contained way withing the ServiceNow instance, without the need of any external component, including the MID server.
 
 The project contains the following repositories:
 - ethsign. A signer based on the ServiceNow platform.
