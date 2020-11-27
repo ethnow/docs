@@ -1,4 +1,4 @@
-# ethnow
+# ethnow - The Ethereum integration for ServiceNow
 
 ethnow aims to create a production-ready Ethereum Spoke for ServiceNow. All modules can operate in a totally self-contained way withing the ServiceNow instance, without the need of any external component, including the MID server.
 
@@ -30,6 +30,8 @@ The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
 ## How to use
 
+
+## How to contribute
 
 
 
