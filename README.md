@@ -13,7 +13,7 @@ The project contains the following repositories:
 - ethspoke. The Ethereum spoke, that used ethsign to sign transaction and to provision cryptographic key pairs to ServiceNow users
 - nowtoken. An example application that is based on ethnow and that implement a token NOW that can be exchanged within and across customer instances.
 
-## High-level Architecture
+## High-level architecture
 
 EthNow is made of two scoped applications for ServiceNow
 - ethsign, which is an Ethereum signer built in ServiceNow
@@ -33,7 +33,7 @@ Three types of interactions are implemented by ethspoke:
 ## Detailed description
 
 
-![Entity Diagram](ethnow-erd.png)
+![Entity Diagram](ethnow_erd.png)
 
 
 The ethnow project uses the primitives provided by the [ethjs](https://github.com/ethjs) project.
