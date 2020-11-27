@@ -14,13 +14,26 @@ The project contains the following repositories:
 
 ## Architecture
 
+EthNow is made of two scoped applications for ServiceNow
+- ethsign, which is an Ethereum signer built in ServiceNow
+- ethspoke, which is the actual integration application that can enable an ecosystem of ServiceNow based DApps, enabling blockchain users and developers to leverage the low-code capabilities of the Now Platform
+
+In the diagram below, the high-level architecture is represented, where a ServiceNow Dapp interact with the Ethereum node through ethspoke. Ethspoke uses ethsign in order to sign transactions and talk with the node via JSON-RPC APIs. Multiple instances can connect to different blockchain nodes, that will need to reach consensus for state-changing interactions. 
+
+ServiceNow Dapp (distributed applications) can be developed leveraging ethnow. As part of the ethnow project a sample NowToken application.
+
+Three types of interactions are implemented by ethspoke:
+- Deploy Smart Contract
+- Invoke method (send)
+- Call method (call)
+
 ![Architecture](ethspoke_arch.png)
 
 ## Description
 
 The ethnow project uses the primitives provided by the [ethjs](https://github.com/ethjs) project.
 
-The following libraries have been adapted/polyfilled to the ServiceNow javascript engine (Rhino) and embedded in the applications as script include:
+The following libraries have been adapted/polyfilled to the ServiceNow javascript engine (Rhino 1.7R5 as of the Paris release) and embedded in the applications as script include:
 
 | Library | Purpose |
 |---|---|
