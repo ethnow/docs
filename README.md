@@ -1,4 +1,4 @@
-# ethnow - The Ethereum integration for ServiceNow
+# EthNow - The Ethereum integration for ServiceNow
 
 ethnow aims to create a production-ready Ethereum integration for ServiceNow. 
 
@@ -45,7 +45,7 @@ The entity-relationship diagram depicted in figure represents the tables and ref
 |Transaction|ethspoke|The log of a transaction invoked from the instance. It can be either a smart contract deployment transaction or a method invocation (send)|
 |Key|ethsign|A private and public keypair, and the associated address. The private key is protected by a read ACL that only the ethsign administrator (if any) can modify. The ethsign admin represent the custodian.
 |Account|ethsign|The relationship table between keypairs and instance users. Each user is identified depending on the ServiceNow login id and can have zero,  one or more keys assigned to him, with which he will be able to sign transactions. |
-|---|---|---|
+
 
 
 ![Entity Diagram](ethnow_erd.png)
@@ -61,7 +61,7 @@ The following libraries have been adapted/polyfilled to the ServiceNow javascrip
 |ethjs-account| Generate key pairs and manage accounts|
 |ethjs-abi| Encoding and decoding utilities|
 |ethjs-format| Payload formatter for the Ethereum RPC layer |
-|---|---|
+
 
 The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
