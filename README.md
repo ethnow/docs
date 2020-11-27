@@ -14,7 +14,7 @@ The project contains the following repositories:
 
 ## Architecture
 
-![Architecture](ethnow-arch.jpg)
+![Architecture](ethspoke-arch.jpg)
 
 ## Description
 
