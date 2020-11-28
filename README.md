@@ -74,10 +74,15 @@ The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
 ## How to use
 
+How to install the update set on a new instance (ie dev instance)
+
+How to submit the main workflow using the pre-packaged smart contract
 
 ## How to contribute
 
+How to link a new instance to the repo
 
+How to send pull request to the project
 
 
 
